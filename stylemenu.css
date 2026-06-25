@@ -1,0 +1,33 @@
+body { /*Aspect de tout texte dans le body*/
+    background-color:rgb(217, 178, 226);
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(75, 0, 94)
+}
+
+h1 { /*Aspect du titre*/
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(75, 0, 94);
+    padding:16px;
+    font-weight:lighter; 
+    text-align:center;
+}
+
+a { /*Aspect des liens du menu*/
+    display: block;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: rgb(159, 72, 180);
+    padding: 3px;
+    color: rgb(250, 236, 255);
+    text-decoration: none; /* supprime le soulignage */
+}
+
+a:hover {/*aspect des liens du menu quand on passe la souris dessus*/
+    display: block;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: rgb(176, 119, 190); /*seule ligne qui change : plus clair au survol */
+    padding: 3px;
+    color: rgb(250, 236, 255);
+    text-decoration: none; /* supprime le soulignage */
+}

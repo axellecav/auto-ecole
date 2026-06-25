@@ -1,0 +1,88 @@
+body{ /*Modifie l'aspect de tout texte dans le body*/
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(75, 0, 94);
+}
+
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(75, 0, 94);
+    display:block; /*Donne l'accès aux attributs créant une "boîte" colorée autour du titre*/
+    padding:16px; /*Ajoute de l'espace autour du titre*/
+    font-weight:lighter; /*Permet que la police ne soit pas en gras*/
+    border-radius: 8px; /*Arrondit les coins du bloc*/
+    text-align:center; 
+    margin-bottom:25px; /*Laisse 25px d'espace sous le bloc*/
+    background-color: rgb(217, 178, 226); 
+}
+
+h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(75, 0, 94);
+    font-size: xx-large; /*Donne aux h2 la même taille que les h1*/
+    font-weight:lighter;     
+    text-align:center;
+}
+
+input[type=text]{ /*Modifie uniquement l'aspect des inputs de texte*/
+    border: 1px solid rgb(159, 72, 180); 
+    border-radius: 8px;
+    background-color: rgb(250, 236, 255);
+    color: rgb(75, 0, 94);
+}
+
+input[type=submit]{
+    display:block;
+    border: 1px solid rgb(159, 72, 180);
+    border-radius: 8px;
+    background-color: rgb(159, 72, 180);
+    color: rgb(250, 236, 255);
+    margin:8px; /*AJoute de l'espace tout autour du submit*/
+}
+
+input[type=submit]:hover{ /*Modifie l'aspect du submit quand on passe la souris dessus*/
+    border: 1px solid rgb(130, 36, 153);
+    border-radius: 8px;
+    background-color: rgb(176, 119, 190); /*Seule ligne qui change : la couleur est plus claire*/
+    color: rgb(250, 236, 255);
+}
+
+input[type=date]{
+    border: 1px solid rgb(159, 72, 180);
+    border-radius: 8px;
+    background-color: rgb(250, 236, 255);
+    color: rgb(159, 72, 180);
+}
+
+input[type=number]{
+    border: 1px solid rgb(159, 72, 180);
+    border-radius: 8px;
+    background-color: rgb(250, 236, 255);
+    color: rgb(159, 72, 180);
+}
+
+textarea{
+    border: 1px solid rgb(159, 72, 180);
+    border-radius: 8px;
+    background-color: rgb(250, 236, 255);
+    color: rgb(75, 0, 94);
+}
+
+select{
+    display:block;
+    border: 1px solid rgb(159, 72, 180);
+    border-radius: 8px;
+    background-color: rgb(250, 236, 255);
+    color: rgb(75, 0, 94);
+    width: 300px;
+    height: 300px;
+    margin-bottom: 1px;
+} 
+
+option{/*Modifie directement l'aspect des options du select*/
+    color: rgb(75, 0, 94);
+} 
+
+option:hover{/*rend l'arrière-plan d'une option plus foncée quand on passe la souris dessus*/
+    color: rgb(75, 0, 94);
+    background-color: rgb(235, 199, 249); /*seule ligne qui change*/
+}
